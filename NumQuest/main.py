@@ -1,7 +1,7 @@
 import random
 
 NUM_DIGITS = 3 # Constant for number of digits generated to guess
-MAX_GUESSES = 10 # Constant for number of attempts
+MAX_GUESSES = 10 # Constant for max number of attempts
 
 def get_secret_code(): # Function to generate a secret code 🤫
     """Generate a secret NUM_DIGITS number with unique digits."""
