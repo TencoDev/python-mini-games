@@ -40,7 +40,7 @@ def start_quest():
         guess = input(f"Attempt {attempt}: Enter your guess: ")
         
         if len(guess) != NUM_DIGITS or not guess.isdigit(): # Validating the input
-            print(f"Please enter a {NUM_DIGITS}-digit number.")
+            print(f"Invalid! Please enter a {NUM_DIGITS}-digit number.")
             continue
         
         clue = get_clue(guess, secret_code)
