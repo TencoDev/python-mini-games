@@ -49,5 +49,3 @@ You have 10 attempts to guess the secret code.
 After each guess, the game provides feedback using emojis to guide you.
 The game ends when you either guess the secret code or exhaust your attempts.
 
-## License 📝
-This project is licensed under the MIT License - see the LICENSE file for details.
