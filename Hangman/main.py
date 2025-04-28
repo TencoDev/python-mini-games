@@ -98,6 +98,8 @@ def play(word):
         if len(guess) == 1 and guess.isalpha():
             if guess in guessed_letters:
                 print("🤨 You already guessed this letter", guess)
+                if guess not in word:
+                    print("Oops, INCORRECT!! BAHAHA 😈 ")
             elif guess not in word:
                 print("Oops, INCORRECT!! BAHAHA 😈 ")
                 tries -= 1

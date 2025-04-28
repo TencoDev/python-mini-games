@@ -27,7 +27,7 @@ def get_clue(guess, secret_code): # Function to return clues based on the guess
         return ''.join(clues)
     
 def start_quest():
-    """Main logic for NumQuest"""
+    # Main logic for NumQuest
     
     print("Welcome to NumQuest, the Number Guessing Game!")
     
